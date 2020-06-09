@@ -39,7 +39,7 @@ function appointmentView() {
     app.getView({
         Action: 'edit',
         ContinueURL: URLUtils.https('Account-EditForm')
-    }).render('account/user/registration');
+    }).render('account/appointment/appointment.isml');
 }
 
 
