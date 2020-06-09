@@ -5,7 +5,7 @@
 	<isslot id="account-banner" description="Banner for My Account pages" context="global" />
 
 	   <h1>
-        ${Resource.msg('account.header','account',null)} |
+        ${Resource.msg('appointments.header','account',null)} |
         ${Resource.msgf('global.user.name', 'locale', null, pdict.CurrentCustomer.profile.firstName, pdict.CurrentCustomer.profile.lastName)}
     	</h1>
 	
