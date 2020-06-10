@@ -11,6 +11,7 @@ display: table;
 display: table-caption;
 text-align: center;
 font-size: 30px;
+padding: 10px;
 font-weight: bold;
 }   
 
@@ -37,7 +38,11 @@ display: table-row;
 }
 
 .table-body-cell{
+padding: 10px;
 display: table-cell;
+font-size: 18px;
+text-align: center;
+
 }
     
 #resp-table-footer {
