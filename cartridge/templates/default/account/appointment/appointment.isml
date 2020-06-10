@@ -13,13 +13,13 @@
 
 <div id="resp-table">
 
-	<div id="resp-table-caption">Appointment Details</div>
+	<div id="resp-table-caption">${Resource.msg('appointments.detail','account',null)}</div>
 	<div id="resp-table-header">
-		<div class="table-header-cell">Header 1</div>
-		<div class="table-header-cell">Header 2</div>
-		<div class="table-header-cell">Header 3</div>
-		<div class="table-header-cell">Header 4</div>
-		<div class="table-header-cell">Header 5</div>
+		<div class="table-header-cell">${Resource.msg('appointments.sno','account',null)}</div>
+		<div class="table-header-cell">${Resource.msg('appointments.name','account',null)}</div>
+		<div class="table-header-cell">${Resource.msg('appointments.date','account',null)}</div>
+		<div class="table-header-cell">${Resource.msg('appointments.slot','account',null)}</div>
+		<div class="table-header-cell">${Resource.msg('appointments.consultantName','account',null)}</div>
 	</div>
 		
 	<div id="resp-table-body">
