@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/vishnuchalil/sfcc_proto#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "del": "^2.0.2",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-uglify": "^2.0.0",
+    "run-sequence": "^1.2.2"
   }
 }
